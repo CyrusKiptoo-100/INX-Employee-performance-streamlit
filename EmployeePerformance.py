@@ -16,7 +16,7 @@ The company initiated this project to identify key drivers of performance and ad
 This analysis will help the company make informed decisions in the future.''')
 
 # Importing the dataset
-df = pd.read_csv('C:\\Users\\ds\\OneDrive\\Desktop\\INX-Employee-performance-streamlit\\INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8 (1).csv')
+df = pd.read_csv("INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8 (1).csv")
 
 # Checking the shape of the dataset
 st.write('Viewing the number of rows and columns:', df.shape)
